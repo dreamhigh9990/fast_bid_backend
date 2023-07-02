@@ -1,0 +1,13 @@
+$(function(){
+	$('#cancel').click(function(e){
+    window.history.back();
+  });
+  $('#save_no_publish').click(function(e){
+    $('#published').val('0');
+    $("form:first").submit();
+  });
+  $('#save_publish').click(function(e){
+    $('#published').val('1');
+    $("form:first").submit();
+  });
+});

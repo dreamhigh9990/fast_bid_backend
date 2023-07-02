@@ -1,0 +1,12 @@
+*/config/database.php
+*/config/config.php
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+.htaccess
+*/db/*
+.idea/
+upload/*
+vendor/*
